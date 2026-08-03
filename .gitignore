@@ -1,0 +1,26 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Project Data files (large datasets should not be checked into Git)
+data/raw/
+data/processed/
+
+# IDE configurations
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary outputs
+outputs/charts/*.png
+outputs/reports/*.html
+outputs/tables/*.csv
